@@ -14,6 +14,7 @@ import org.springframework.validation.annotation.Validated;
 @Getter
 @Setter
 @Validated
+@Document
 public class Address {
 
     private String street;

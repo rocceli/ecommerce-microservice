@@ -18,7 +18,7 @@ public record CustomerRequest(
          String lastName,
 
          @NotNull(message = "Customer email required")
-         @Email(message = "Customer email not a valid email address ")
+         @Email(message = "Customer email not a valid email address")
          String email,
 
          Address address
